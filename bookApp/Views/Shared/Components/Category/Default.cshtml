@@ -1,0 +1,16 @@
+
+@{}
+
+@model IEnumerable<string>
+
+@foreach (string c in Model) {
+    <li class="nav-item">
+<<<<<<< Updated upstream
+        <a class="nav-link text-light @(ViewBag.selectedCategory == c ? "active" : "" )" asp-controller="Home" asp-action="Index" asp-route-pageNum="" asp-route-bookCategory="@c">@c</a>
+=======
+        <a class="nav-link text-light" asp-route-bookCategory="@c" asp-controller="Home" asp-action="Index" asp-route-pageNum="1">
+            <button class="btn@(ViewBag.selectedCategory == c ? " btn-primary" : " btn-secondary" )">@c</button>
+        </a>
+>>>>>>> Stashed changes
+    </li>
+}

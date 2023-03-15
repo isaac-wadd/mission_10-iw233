@@ -1,0 +1,45 @@
+
+
+@model Order
+
+<h4 class="text-center">checkout</h4>
+<br>
+<p class="text-center">cart checkout</p>
+<br>
+<br>
+<form method="post" asp-controller="Order" asp-action="Checkout">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <h5>personal</h5>
+    <div class="form-group">
+        <label asp-for="name">name:</label>
+        <input type="text" class="form-control" asp-for="name" />
+    </div>
+    <h5>address</h5>
+    <div class="form-group">
+        <label asp-for="addressLine1">address line 1:</label>
+        <input type="text" class="form-control" asp-for="addressLine1" />
+    </div>
+    <div class="form-group">
+        <label asp-for="addressLine2">address line 2:</label>
+        <input type="text" class="form-control" asp-for="addressLine2" />
+    </div>
+    <div class="form-group">
+        <label asp-for="city">city:</label>
+        <input type="text" class="form-control" asp-for="city" />
+    </div>
+    <div class="form-group">
+        <label asp-for="state">state:</label>
+        <input type="text" class="form-control" asp-for="state" />
+    </div>
+    <div class="form-group">
+        <label asp-for="zip">zip code:</label>
+        <input type="text" class="form-control" asp-for="zip" />
+    </div>
+    <div class="form-group">
+        <label asp-for="country">country:</label>
+        <input type="text" class="form-control" asp-for="country" />
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">check out</button>
+    <br>
+</form>
