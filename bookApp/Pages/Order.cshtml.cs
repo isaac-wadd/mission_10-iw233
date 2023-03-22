@@ -12,11 +12,7 @@ namespace bookApp.Pages {
     public class OrderModel : PageModel {
 
         private IbookAppRepo repo { get; set; }
-<<<<<<< Updated upstream
         public OrderModel(IbookAppRepo temp, Cart tCart) { repo = temp; cart = tCart; }
-=======
-        public OrderModel(IbookAppRepo temp) { repo = temp; }
->>>>>>> Stashed changes
         public Cart cart { get; set; }
         public string ReturnUrl { get; set; }
 
@@ -34,13 +30,10 @@ namespace bookApp.Pages {
             HttpContext.Session.SetJson("cart", cart);
             return RedirectToPage(new { ReturnUrl = returnUrl });
         }
-<<<<<<< Updated upstream
 
         public IActionResult OnPostRemove(int bookID, string returnUrl) {
             cart.RemoveItem(cart.items.First(x => x.book.BookId == bookID).book);
             return RedirectToPage(new { ReturnUrl = returnUrl });
         }
-=======
->>>>>>> Stashed changes
     }
 }

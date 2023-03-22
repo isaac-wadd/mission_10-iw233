@@ -225,3 +225,5 @@
 /Users/isaac.wadd/Library/CloudStorage/OneDrive-BYU/Winter 2023/413 - Enterprise Dev/projects/mission11/mission_11-iw233/bookApp/obj/Debug/net5.0/bookApp.genruntimeconfig.cache
 /Users/isaac.wadd/Library/CloudStorage/OneDrive-BYU/Winter 2023/413 - Enterprise Dev/projects/mission11/mission_11-iw233/bookApp/obj/Debug/net5.0/Razor/Pages/OrderConfirmation.cshtml.g.cs
 /Users/isaac.wadd/Library/CloudStorage/OneDrive-BYU/Winter 2023/413 - Enterprise Dev/projects/mission11/mission_11-iw233/bookApp/obj/Debug/net5.0/Razor/Views/Order/Checkout.cshtml.g.cs
+/Users/isaac.wadd/Library/CloudStorage/OneDrive-BYU/Winter 2023/413 - Enterprise Dev/projects/mission10/mission_10-iw233/bookApp/obj/Debug/net5.0/Razor/Pages/OrderConfirmation.cshtml.g.cs
+/Users/isaac.wadd/Library/CloudStorage/OneDrive-BYU/Winter 2023/413 - Enterprise Dev/projects/mission10/mission_10-iw233/bookApp/obj/Debug/net5.0/Razor/Views/Order/Checkout.cshtml.g.cs

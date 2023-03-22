@@ -19,7 +19,6 @@
             <tr>
                 <td>@b.book.Title</td>
                 <td>@b.quantity</td>
-<<<<<<< Updated upstream
                 <td>$24.99</td>
                 <td>@((b.quantity * 24.99).ToString("c"))</td>
                 <td class="text-center">
@@ -29,10 +28,6 @@
                         <button class="btn btn-primary btn-danger" type="submit">remove</button>
                     </form>
                 </td>
-=======
-                <td>25</td>
-                <td>@((b.quantity * 25).ToString("c"))</td>
->>>>>>> Stashed changes
             </tr>
         }
     </tbody>
@@ -43,13 +38,7 @@
         </tr>
     </tfoot>
 </table>
-<<<<<<< Updated upstream
 <div>
     <a class="btn btn-primary" href="@Model.ReturnUrl">order more</a>
     <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout">check out</a>
-=======
-
-<div>
-    <a class="btn btn-primary" href="@Model.ReturnUrl">order more</a>
->>>>>>> Stashed changes
 </div>
